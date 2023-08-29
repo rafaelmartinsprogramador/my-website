@@ -11,8 +11,52 @@
 </head>
 <body>
     <main>
-        <!-- HEADER -->
+      <!-- HEADER -->
         <header>
+
+      <!-- NAVBAR -->
+
+      <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Desenvolvedor Web</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" id="nav-link-active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Orçamento</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Clientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Parcerias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Novidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Quem somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Suporte</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- FIM NAVBAR -->
+
+      <!-- HEADER -->
+
             <div class="logo-header">
                 <img src="../imagens/logotipo.png" alt="Desenvolvedor Web Logotipo" class="img-header">
             </div>
@@ -24,6 +68,7 @@
                 </div>
             </div>
         </header>
+
         <!-- FIM HEADER -->
 
         <!-- PRIMEIRO CONTEÚDO -->
@@ -44,31 +89,39 @@
             <aside class="cards-interativos">
                 <div class="card-group">
                     <div class="card">
-                      <img src="" class="card-img-top" alt="">
+                      <div id="card01">
+                        <img src="imagens/icone-card-website.png" class="card-img-top" alt="..." id="card01-icon">
+                      </div>
                       <div class="card-body">
-                        <h5 class="card-title">Criação de Sites</h5>
-                        <p class="card-text">Fazemos a criação de páginas web modernas, responsivas e otimizadas.</p>
+                        <h5 class="card-title" id="card-title01">Criação de Sites</h5>
+                        <p class="card-text" id="card-text01">Fazemos a criação de páginas web modernas, responsivas e otimizadas.</p>
                       </div>
                     </div> <br>
                     <div class="card">
-                      <img src="" class="card-img-top" alt="">
+                      <div id="card02">
+                        <img src="imagens/icone-card-design.png" class="card-img-top" alt=".." id="card02-icon">
+                      </div>
                       <div class="card-body">
-                        <h5 class="card-title">Identidade Visual</h5>
-                        <p class="card-text">Criamos sua identidade visual e logomarca.</p>
+                        <h5 class="card-title" id="card-title02">Identidade Visual</h5>
+                        <p class="card-text" id="card-text02">Criamos sua identidade visual e logomarca.</p>
                       </div>
                     </div> <br>
                     <div class="card">
-                      <img src="" class="card-img-top" alt="">
+                      <div id="card03">
+                        <img src="imagens/icone-card-ads.png" class="card-img-top" alt=".." id="card03-icon">
+                      </div>
                       <div class="card-body">
-                        <h5 class="card-title">Google Ads</h5>
-                        <p class="card-text">Especialistas em Google Ads, serviços de anúncios online focados em maximizar o alcance e resultados de seu site.</p>
+                        <h5 class="card-title" id="card-title03">Google Ads</h5>
+                        <p class="card-text" id="card-text03">Especialistas em Google Ads, serviços de anúncios online focados em maximizar o alcance e resultados de seu site.</p>
                       </div>
                     </div> <br>
                     <div class="card">
-                        <img src="" class="card-img-top" alt="">
+                      <div id="card04">
+                        <img src="imagens/icone-card-seo.png" class="card-img-top" alt=".." id="card04-icon">
+                      </div>
                         <div class="card-body">
-                          <h5 class="card-title">Otimização SEO</h5>
-                          <p class="card-text">Otimizamos seu site para atender às exigências do mecanismo de busca, melhorando a esperiência do usuário.</p>
+                          <h5 class="card-title" id="card-title04">Otimização SEO</h5>
+                          <p class="card-text" id="card-text04">Otimizamos seu site para atender às exigências do mecanismo de busca, melhorando a esperiência do usuário.</p>
                         </div>
                       </div>
                   </div>
@@ -117,76 +170,127 @@
 
         <!-- FIM SEGUNDO CONTEUDO -->
 
-        <footer>
-          <div id="footer_content">
-              <div id="footer_contacts">
-                  <h1>Desenvolvedor Web</h1>
-                  <p>Criador de sites e Aplicações Web</p>
-              </div>
-              
-              <ul class="footer-list">
-                  <li>
-                      <h3>Menu</h3>
-                  </li>
-                  <li>
-                      <a href="#" class="footer-link">Home</a>
-                  </li>
-                  <li>
-                      <a href="#" class="footer-link">Orçamento</a>
-                  </li>
-                  <li>
-                      <a href="#" class="footer-link">Clientes</a>
-                  </li>
-                  <li>
-                    <a href="#" class="footer-link">Novidades</a>
-                </li>
-                <li>
-                  <a href="#" class="footer-link">Quem somos</a>
-              </li>
-              <li>
-                <a href="#" class="footer-link">Contato</a>
-            </li>
-              </ul>
-  
-              <ul class="footer-list">
-                  <li>
-                      <h3>Redes Sociais</h3>
-                  </li>
-                  <li>
-                      <a href="#" class="footer-link">WhatsApp: +55 (18) 99631-7093</a>
-                  </li>
-                  <li>
-                      <a href="#" class="footer-link">Instagram: @desenvolvedor___web</a>
-                  </li>
-                  <li>
-                      <a href="#" class="footer-link">Site: desenvolvedorweb.com.br</a>
-                  </li>
-                  <li>
-                    <a href="#" class="footer-link">E-mail: suporte@desenvolvedorweb.com.br</a>
-                </li>
-              </ul>
-  
-              <div id="footer_subscribe">
-                  <h3>Inscreva-se</h3>
-  
-                  <p>
-                      Deixe seu e-mail no campo abaixo para receber totas as notificações e atualizações do site.
-                  </p>
-  
-                  <div id="input_group">
-                      <input type="email" id="email" placeholder="Digite seu e-mail">
-                      <button>
-                          <i class="fa-regular fa-envelope"></i>
-                      </button>
-                  </div>
-              </div>
-          </div>
-  
-          <div id="footer_copyright">
-              &#169
-              2023 Todos os direitos reservados.
-          </div>
-      </footer>
     </main>
+
+  <!-- FOOTER -->
+
+  <footer class="footer-section">
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h4>Localização</h4>
+                            <span>São Paulo, Brasil</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Telefone/WhatsApp</h4>
+                            <span>+55 (18) 99631-7093</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>E-Mail</h4>
+                            <span>geral@desenvolvedorweb.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="imagens/logotipo.png" class="img-fluid" alt="Desenvolvedor Web"></a>
+                        </div>
+                        <div class="footer-text">
+                            <p>Desenvolvedor de Sites e Aplicações Web.</p>
+                        </div>
+                        <div class="footer-social-icon">
+                            <span>Redes Sociais</span>
+                            <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                            <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Menu</h3>
+                        </div>
+                        <ul class="links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Orçamento</a></li>
+                            <li><a href="#">Clientes</a></li>
+                            <li><a href="#">Parcerias</a></li>
+                            <li><a href="#">Novidades</a></li>
+                            <li><a href="#">Quem somos</a></li>
+                            <li><a href="#">Contato</a></li>
+                            <li><a href="#">Suporte</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Inscreva-se</h3>
+                        </div>
+                        <div class="footer-text mb-25">
+                            <p>Insira seu e-mail abaixo para receber todas as notificações do site.</p>
+                        </div>
+                        <div class="subscribe-form">
+                            <form action="#">
+                                <input type="text" placeholder="Endereço de E-Mail">
+                                <button>
+                                  <div class="icone-email"><i class="fa-regular fa-envelope"></i></div>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2023, Todos os direitos reservados <a href="#">Desenvolvedor Web</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="footer-menu">
+                        <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">Orçamento</a></li>
+                          <li><a href="#">Clientes</a></li>
+                          <li><a href="#">Parcerias</a></li>
+                          <li><a href="#">Novidades</a></li>
+                          <li><a href="#">Quem somos</a></li>
+                          <li><a href="#">Contato</a></li>
+                          <li><a href="#">Suporte</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- FIM FOOTER -->
+
 </body>
 </html>
