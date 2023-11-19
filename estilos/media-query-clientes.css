@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 375px) {
+
+    #nav-button {
+        margin-top: 10px;
+    } 
+}
+
+@media screen and (min-width: 500px) {
+
+    .card-title02 {
+        padding: 10px;
+        margin-bottom: -30px;
+    }
+
+    .card-text02 {
+        padding: 10px;
+    }
+
+    .conteudo-card02-button {
+        margin-top: 20px;
+    }
+
+    .conteudo03-title {
+        margin-top: 100px;
+    }
+
+    footer {
+        margin-top: -70px;
+    }
+}
+
+@media screen and (min-width: 520px) {
+    
+    .conteudo03-title {
+        margin-top: 120px;
+    }
+
+    footer {
+        margin-top: -100px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+
+    .card-group {
+        display: block;
+        width: 100vw;
+    }
+    
+    .card {
+        padding: 20px;
+    }
+
+    #card-title01 {
+        margin-top: -30px;
+    }
+
+    .conteudo03-title {
+        margin-top: 120px;
+    }  
+}
+
+@media screen and (min-width: 602px) {
+
+    .conteudo-card02-button {
+        margin-top: 40px;
+    }
+
+    .conteudo03-button {
+        margin-bottom: -100px;
+    }
+}
+
+@media screen and (min-width: 790px) {
+
+    .p-header {
+        width: 50%;
+    }
+
+    .conteudo03-button {
+        margin-bottom: -200px;
+    }
+}
+
+@media screen and (min-width: 980px) {
+
+    .card-body02 {
+        width: 50vw;
+        margin: auto;
+    }
+
+    .conteudo03-title {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    
+    #nav-button {
+        margin-top: 0px;
+    } 
+}
+
+@media screen and (min-width: 1100px) {
+
+    .conteudo02-text, .conteudo03-text {
+        margin-left: 100px;
+        margin-right: 100px;
+        text-align: center;
+    }
+
+    .conteudo03-button {
+        margin-top: -50px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .p-header {
+        width: 45%;
+    }
+
+    .card-group {
+        display: flex;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        border: 1px solid lightgray;
+    }
+
+    .card-text {
+        font-size: 20px;
+    }
+
+    #card-title01 {
+        margin-top: -1px;
+        margin-top: 6px;
+    }
+
+    #card-title02 {
+        margin-top: -3px;
+    } 
+
+    #card-title03 {
+        margin-top: 2px;
+    } 
+
+    #card-title04 {
+        margin-top: 2px;
+    } 
+
+    #card01-icon {
+        margin-top: -1px;
+    }
+
+    #card02-icon {
+        margin-top: -1px;
+        margin-top: 8px;
+    }
+
+    #card03-icon {
+        margin-top: -1px;
+        margin-top: 2px;
+    }
+
+    #card04-icon {
+        margin-top: -1px;
+        margin-top: 2px;
+    }
+
+    .conteudo02-title, .conteudo01-title, .conteudo03-title {
+        font-size: 42px;
+    }
+
+    .conteudo02-text, .conteudo01-text, .conteudo03-text  {
+        font-size: 24px;
+    }
+}
+
+    @media screen and (min-width: 1400px) {
+        
+        .card-text {
+            font-size: 20px;
+        }
+
+        .card {
+            height: 320px;
+        }
+    }
+
+    @media screen and (min-width: 1500px) {
+        
+        .logo-header {
+            max-width: 1200px;
+            margin: auto;
+            margin-top: 10px;
+            margin-right: 150px;
+        }
+
+        .header-text {
+            max-width: 1200px;
+            text-align: left;
+            margin: auto;
+            margin-top: 250px;
+        }
+
+        .logo-header {
+            max-width: 1200px;
+            margin: auto;
+            margin-bottom: -40px;
+            margin-top: 30px;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .card {
+            height: 315px;
+        }
+
+        .card-text {
+            font-size: 20px;
+        }
+    }
+
+    @media screen and (min-width: 1600px) {
+
+        .container-fluid {
+            max-width: 1500px;
+            margin: auto;
+        }
+    }
